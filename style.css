@@ -1,0 +1,104 @@
+/*Centramos la imagen de la cabecera*/
+#img-cab {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+}
+
+div{
+    display: block;
+}
+/*Seleccionamos el tipo de letra y centramos el main*/
+main{
+    font-family: "Roboto", sans-serif;
+    padding-left: 23%;
+    padding-right: 25%;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+/*Hacemos lo mismo con el texto de abajo*/
+#ltext{
+    font-family: "Roboto", sans-serif;
+    padding-left: 23%;
+    padding-right: 25%;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+p{
+    padding-right: 5%;
+   
+}
+h1{
+    padding: 0.5%; 
+}
+h2{
+    padding: 0.5%; 
+}
+/*Ajustamos el tamaño de las imagenes de aules*/
+#selector img{
+    width: 30%;
+    padding: 1%;
+    float: left;
+    
+}
+#selector{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    
+}
+/*Ajustamos que el texto de abajo de las imagenes empiece por abajo y no seguido*/
+#texto-fi{
+    margin-top: 10%;
+    float: inline-start;
+}
+.puntos{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+/*Ajustamos el footer de la página*/
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+/*Ajustamos las propiedades para tener una web más responsive*/
+@media only screen and (max-width: 720px) {
+    
+body{
+    font-size: 18px;
+}
+#img-cab img{
+    justify-content: center;
+    width: 90%;
+}
+main{
+    font-family: "Roboto", sans-serif;
+    padding-left: 13%;
+    padding-right: 15%;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+#selector {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+#ltext{
+    font-family: "Roboto", sans-serif;
+    padding-left: 13%;
+    padding-right: 15%;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+#selector img {
+    width: 100%;
+    padding: 1%;
+    
+}
+
+}
